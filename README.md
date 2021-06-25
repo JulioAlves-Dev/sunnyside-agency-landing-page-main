@@ -9,12 +9,8 @@ Esta é uma solução para o [Sunnyside agency landing page challenge on Fronten
   - [Captura de tela](#captura-de-tela)
   - [Links](#links)
 - [Meu processo](#meu-processo)
-  - [Criado com](#integrado)
-  - [O que aprendi](#o-que-aprendi)
-  - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
-  - [Recursos úteis](#recursos-úteis)
+  - [Construído com](#construído-com)
 - [Autor](#autor)
-- [Agradecimentos](#agradecimentos)
 
 ## Visão geral
 
@@ -32,7 +28,6 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da solução: [Link](https://github.com/JulioAlves-Dev/sunnyside-agency-landing-page-main)
 - URL do site ativo: [Link](https://julioalves-dev.github.io/sunnyside-agency-landing-page-main/)
 
 ## Meu processo
