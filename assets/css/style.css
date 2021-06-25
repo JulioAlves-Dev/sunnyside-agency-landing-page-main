@@ -373,19 +373,13 @@ section.section-client-testimonials .client-name-prof p {
   margin: 0px 34px;
 }
 .footer .footer-nav a {
-  transition: 0.3s;
+  transition: 0.2s;
 }
 .footer .footer-nav a:hover {
   color: var(--white);
 }
 .footer .footer-social a {
   margin: 0px 10px;
-}
-.footer .social path {
-  transition: 0.3s;
-}
-.footer .social:hover path {
-  fill: #fff;
 }
 
 @media (max-width: 1024px) {
