@@ -27,7 +27,7 @@ function outsideClick(element) {
   }
 }
 
-const tagsA = document.querySelectorAll("* a");
+const tagsA = document.querySelectorAll("* a.prevent");
 tagsA.forEach((e) => {
   e.addEventListener("click", (event) => {
     event.preventDefault();

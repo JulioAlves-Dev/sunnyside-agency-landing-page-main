@@ -296,7 +296,7 @@ section.section-client-testimonials .client-img {
   overflow: hidden;
   margin-bottom: 50px;
 }
-section.section-client-testimonials .client-img #t-img {
+section.section-client-testimonials .client-img img {
   width: 100%;
   height: 100%;
 }
