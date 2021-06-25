@@ -22,7 +22,7 @@ body {
   font-size: 18px;
   font-family: "Barlow", sans-serif;
   font-weight: 600;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   /*font-family: 'Fraunces', serif;*/
 }
 h1,
@@ -78,13 +78,12 @@ b {
   position: absolute;
   top: 80px;
   right: 0px;
+  display: none;
 }
 
-.header .menu-mobile nav.menu-open {
+.header .menu-mobile nav.active {
   animation: menuOpen 0.3s;
-}
-.header .menu-mobile nav.menu-close {
-  animation: menuClose 0.3s;
+  display: block;
 }
 
 @keyframes menuOpen {
@@ -93,15 +92,6 @@ b {
   }
   to {
     opacity: 1;
-  }
-}
-
-@keyframes menuClose {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
   }
 }
 
@@ -169,7 +159,7 @@ b {
 
 main.main-grid {
   display: grid;
-  grid-template-columns: repeat(2, 50vw);
+  grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(3, 90vh);
   grid-template-areas:
     "grid2 grid1"
@@ -455,7 +445,7 @@ section.section-client-testimonials .client-name-prof p {
   }
   main.main-grid {
     display: grid;
-    grid-template-columns: repeat(1, 100vw);
+    grid-template-columns: 100vw;
     grid-template-rows: 60vh 75vh 60vh 75vh 85vh 85vh;
     grid-template-areas:
       "grid1"
